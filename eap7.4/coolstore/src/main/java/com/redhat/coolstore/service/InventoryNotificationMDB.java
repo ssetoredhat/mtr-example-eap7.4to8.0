@@ -40,6 +40,8 @@ public class InventoryNotificationMDB implements MessageListener {
                         int new_quantity = old_quantity - orderItem.getQuantity();
                         if (new_quantity < LOW_THRESHOLD) {
                             log.warning("Inventory for item " + orderItem.getProductId() + " is below threshold (" + LOW_THRESHOLD + "), contact supplier!");
+                        } else {
+                            orderItem.setQuantity(new_quantity);
                         }
                     });
                 }
