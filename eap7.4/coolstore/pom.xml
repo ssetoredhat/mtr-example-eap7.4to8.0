@@ -52,7 +52,4 @@
             </plugin>
         </plugins>
     </build>
-    <profiles>
-<!-- TODO: Add OpenShift profile here -->
-    </profiles>
 </project>
