@@ -1,0 +1,1 @@
+{"id":"Generate jboss-web.xml_1","content":"addRule()\r\n\t.when(Query.fromType(org.jboss.windup.rules.apps.javaee.model.WebXmlModel).as(default)\r\n)\r\n\t.perform(Generate jboss-web.xml\r\n)\r\nwithId(\"Generate jboss-web.xml_1\")"}

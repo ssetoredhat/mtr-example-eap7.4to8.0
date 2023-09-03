@@ -1,0 +1,1 @@
+{"id":"ArchiveIdentificationConfigLoadingRuleProvider_2","content":"addRule()\r\n\t.perform(org.jboss.windup.rules.apps.java.archives.config\r\n\t\t\t\r\n\t\t.ArchiveIdentificationConfigLoadingRuleProvider$AddLuceneFileIndexOperation@3d6f9\r\n\t\t\t942\r\n)\r\nwithId(\"ArchiveIdentificationConfigLoadingRuleProvider_2\")"}

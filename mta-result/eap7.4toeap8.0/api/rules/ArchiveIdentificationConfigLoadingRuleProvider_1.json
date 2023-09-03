@@ -1,0 +1,1 @@
+{"id":"ArchiveIdentificationConfigLoadingRuleProvider_1","content":"addRule()\r\n\t.perform(org.jboss.windup.rules.apps.java.archives.config\r\n\t\t\t\r\n\t\t.ArchiveIdentificationConfigLoadingRuleProvider$AddDelimitedFileIndexOperation@35\r\n\t\t\ta21d25\r\n)\r\nwithId(\"ArchiveIdentificationConfigLoadingRuleProvider_1\")"}

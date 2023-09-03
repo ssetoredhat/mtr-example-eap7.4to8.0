@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwindup_ui=self.webpackChunkwindup_ui||[]).push([[449],{71449:function(i,n,u){u.r(n),u.d(n,{default:function(){return c}});u(47313);var d=u(97890),e=u(96093),r=u(53566),t=u(46417),c=function(){var i=(0,d.bx)();return(0,t.jsx)(e.NP,{children:(0,t.jsx)(r.im,{applicationId:null===i||void 0===i?void 0:i.id})})}}}]);

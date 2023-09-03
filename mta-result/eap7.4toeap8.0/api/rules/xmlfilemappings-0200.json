@@ -1,0 +1,1 @@
+{"id":"xmlfilemappings-0200","content":"<file-mapping xmlns=\"http://windup.jboss.org/schema/jboss-ruleset\" from=\".*\\.bpel$\" id=\"xmlfilemappings-0200\" to=\"XmlFileModel\"/>"}

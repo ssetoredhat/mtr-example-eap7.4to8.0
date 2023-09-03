@@ -1,0 +1,1 @@
+{"id":"CreateAboutWindupReportRuleProvider_1","content":"addRule()\r\n\t.when(Query.fromType(org.jboss.windup.graph.model.WindupConfigurationModel)\r\n\t\t.as(default)\r\n)\r\n\t.perform(Iteration.over(?).perform(CreateAboutWindupReport)\r\n)\r\nwithId(\"CreateAboutWindupReportRuleProvider_1\")"}

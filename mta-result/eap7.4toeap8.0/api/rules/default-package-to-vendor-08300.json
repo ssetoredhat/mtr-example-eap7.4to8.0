@@ -1,0 +1,1 @@
+{"id":"default-package-to-vendor-08300","content":"<package-mapping xmlns=\"http://windup.jboss.org/schema/jboss-ruleset\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" from=\"org.dozer\" id=\"default-package-to-vendor-08300\" to=\"Dozer\"/>"}

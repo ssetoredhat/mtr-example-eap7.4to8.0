@@ -1,0 +1,1 @@
+{"id":"2224216","content":"package com.redhat.coolstore.rest;\r\n\r\nimport javax.ws.rs.ApplicationPath;\r\nimport javax.ws.rs.core.Application;\r\n\r\n@ApplicationPath(\"/services\")\r\npublic class RestApplication extends Application {\r\n}\r\n"}

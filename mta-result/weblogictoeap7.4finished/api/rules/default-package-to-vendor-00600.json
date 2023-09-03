@@ -1,0 +1,1 @@
+{"id":"default-package-to-vendor-00600","content":"<package-mapping xmlns=\"http://windup.jboss.org/schema/jboss-ruleset\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" from=\"ilog\" id=\"default-package-to-vendor-00600\" to=\"IBM\"/>"}
