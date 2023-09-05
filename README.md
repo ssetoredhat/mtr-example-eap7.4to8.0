@@ -13,8 +13,14 @@ Migration Toolkit for Runtimesを使用してEAP 7.4からEAP 8.0βへ移行す�
 JBoss EAP 8.0β Release date: December 15, 2022
 ※zip File及びにServer Migrationをダウンロードしてください。
 JBoss EAP 7.4
+Migration Toolkit for Runtimes 1.1.0(MTA 6.2.5)
+Red Hat build of OpenJDK 11.0.19-x64(Windows 64bit)
 これらはすべてRed Hat Developersからダウンロードできます。
 https://developers.redhat.com/products/eap/download
+https://developers.redhat.com/products/mtr/download
+https://developers.redhat.com/products/openjdk/download
+
+※MTR1.1.0/MTA6.2.5はJava 17だと動作しないことが報告されていますのでご注意ください。
 
 
 DBはpostgresqlを使用しています。
