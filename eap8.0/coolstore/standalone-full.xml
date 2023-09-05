@@ -161,7 +161,7 @@
                     </security>
                 </datasource>
                 <datasource jndi-name="java:jboss/datasources/CoolstoreDS" pool-name="postgresDS">
-                    <connection-url>jdbc:postgresql://172.20.189.68:5432/postgres</connection-url>
+                    <connection-url>jdbc:postgresql://localhost:5432/postgres</connection-url>
                     <driver>postgres</driver>
                     <security>
                         <user-name>postgres</user-name>
