@@ -9,22 +9,22 @@ Migration Toolkit for Runtimesを使用してEAP 7.4からEAP 8.0βへ移行す�
 
 ## 前提準備
 
-以下の製品を使用しています。
-JBoss EAP 8.0β Release date: December 15, 2022
-※zip File及びにServer Migrationをダウンロードしてください。
-JBoss EAP 7.4
-Migration Toolkit for Runtimes 1.1.0(MTA 6.2.5)
-Red Hat build of OpenJDK 11.0.19-x64(Windows 64bit)
-これらはすべてRed Hat Developersからダウンロードできます。
-https://developers.redhat.com/products/eap/download
-https://developers.redhat.com/products/mtr/download
-https://developers.redhat.com/products/openjdk/download
+以下の製品を使用しています。 
+JBoss EAP 8.0β Release date: December 15, 2022 
+※zip File及びにServer Migrationをダウンロードしてください。 
+JBoss EAP 7.4 
+Migration Toolkit for Runtimes 1.1.0(MTA 6.2.5) 
+Red Hat build of OpenJDK 11.0.19-x64(Windows 64bit) 
+これらはすべてRed Hat Developersからダウンロードできます。 
+https://developers.redhat.com/products/eap/download 
+https://developers.redhat.com/products/mtr/download 
+https://developers.redhat.com/products/openjdk/download 
 
 ※MTR1.1.0/MTA6.2.5はJava 17だと動作しないことが報告されていますのでご注意ください。
 
 
-DBはpostgresqlを使用しています。
-Podmanでpostgresqlを実行してください。
+DBはpostgresqlを使用しています。 
+Podmanでpostgresqlを実行してください。 
 
 ```
 # イメージの取得
@@ -48,7 +48,7 @@ postgresqlのJDBCドライバを取得してローカルに保存しておく必
 https://jdbc.postgresql.org/
 
 ## サーバーの設定
-JBoss EAP 8.0βはJBoss Server Migration Toolを使用してEAP 7.4から設定を移行できますが、EAP 7.4の設定は自分自身で行う必要があります。
+JBoss EAP 8.0βはJBoss Server Migration Toolを使用してEAP 7.4から設定を移行できますが、EAP 7.4の設定は自分自身で行う必要があります。 
 以下の通り実行してください。
 
 
@@ -77,5 +77,5 @@ data-source add --name=postgresDS --jndi-name=java:jboss/datasources/CoolstoreDS
 
 ## 実行
 
-JBoss Server Migration Tool/Migration Toolkit for Runtimesの使用方法は以下の記事で説明されています。
+JBoss Server Migration Tool/Migration Toolkit for Runtimesの使用方法は以下の記事で説明されています。 
 https://rheb.hatenablog.com/entry/2022/12/18/094444
